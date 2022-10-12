@@ -7,3 +7,14 @@ def initialize(name, capacity)
   @pets = []
 end
 end
+
+def add_pet(pet_name)
+  @pets << pet_name
+end
+
+def call_pets(pet_name)
+  @pet_name
+  puts "#{pet_name}!"
+end
+
+#need method for pets and call_pets
