@@ -6,11 +6,19 @@ def initialize(name, capacity)
   @capacity = capacity
   @pets = []
 end
-end
-
 def add_pet(pet_name)
   @pets << pet_name
 end
+
+end
+
+
+
+
+
+# def add_pet(pet_name)
+#   @pets << pet_name
+# end
 
 def call_pets(pet_name)
   @pet_name
